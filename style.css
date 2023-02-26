@@ -1,0 +1,240 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+            /* herder */
+
+
+.head{display: flex;
+     box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.393);
+    background-color:#7C5E99;
+    margin-bottom: 3px;
+    
+ 
+}
+
+
+
+.img-nav{
+    flex: 30%;
+   
+}
+
+.nav-ul{
+    flex: 70%;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ul-head{
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+    justify-content: center;
+    list-style-type: square;
+    
+   
+}
+
+.ul-head li{
+   
+    margin-top: 20px;
+    margin-left: 25px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.ul-head li:hover{
+    background-color: #F25A70;
+    padding: 10px;
+    border-radius: 10px;
+} 
+
+.ul-head li a{
+    text-decoration: none;
+    color: white;
+}
+
+.downlod{
+    background-color: #F25A70;
+    padding: 10px;
+    box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.512);
+    list-style-type: none;
+}
+
+.img-head{
+    width: 50px;
+    height: 50px;
+ margin: 10px 0 10px 10px;
+}
+
+    /* aqui acabou o heder e comeca o mean */
+.box{
+   
+    background-color: black;
+    background-position: center;
+    background-image: url('img/photo.png');
+    background-size: cover;
+    width:100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.393);
+    margin-bottom: 2px;
+}
+
+.div3{
+    background-color: #3a4042da;
+    box-shadow:6px 7px 0px 0px rgba(0, 0, 0, 0.825);
+    color: white;
+    display:inline-block;
+    margin: 8% 0 2% 8%;
+    padding: 10px 20px 10px 20px;
+    font-size: 1.5em;
+}
+
+.down{
+    margin-left: 5%;
+   
+
+}
+
+.down p{
+    background: #F25A70;
+    color: white;
+    margin-left: 5%;
+    padding: 5px;
+    width: 14%;
+    display: inline;
+}
+
+.rosa{
+    background-color: #F25A70;
+    box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.393);
+    margin-bottom: 2px;
+}
+
+.h2-1{
+    text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+    color: white;
+}
+
+.ul-1{
+    text-transform: capitalize;
+    columns: 2;
+    list-style-type: none;
+}
+
+.ul-1 li{
+    display: block;
+    margin-bottom: 30px;
+}
+
+.img1{
+    width: 20px;
+    height: 20px;
+    margin: -10px 5px 0px 0px;
+}
+
+.preto-1{
+    background-color: black;
+    box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.393);
+    margin-bottom: 2px;
+}
+
+.pro{
+  
+    display: flex;
+    justify-content: space-around;
+  justify-items: center;
+  padding: 20px;
+}
+
+.pro img{
+    background-color: #7C5E99;
+    ;
+    box-shadow: 3px 3px 0px #FFFFFF;
+
+    width: 20%;
+    height: 5%;
+}
+
+.roxo-1{
+    box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.393);
+    background: #7C5E99;
+}
+
+.roxo-1 p{
+    padding: 0px 10px 5px 10px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+                /* fim do main */
+input{
+    display: block;
+}
+
+.prencher{
+    box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.393);
+    background-color: #3A4042;
+}
+
+.footer{
+    box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.393);
+    background-color: black;
+    padding: 4px;
+    text-align: center;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 5%; 
+}
+
+main{
+    max-width: 700px;
+    margin: auto; 
+}
+
+.prencher{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.prencher div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.prencher div input, textarea{
+    width: 80vh;
+    padding: 10px;
+    border-radius: 10px;
+    outline: unset;
+    border: 2px solid #7C5E99;
+}
+
+.prencher div label{
+    text-transform: capitalize;
+    margin-left: 5px;
+}
+
+.prencher input:focus, .prencher textarea:focus{
+    background-color: #f25a71a0;
+}
+
+.prencher input[type=submit]{
+    background-color: #7C5E99;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
